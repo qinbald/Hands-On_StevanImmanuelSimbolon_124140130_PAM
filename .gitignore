@@ -3,3 +3,32 @@
 
 # OS cruft
 .DS_Store
+Thumbs.db
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+local.properties
+
+# Gradle
+.gradle/
+build/
+*/build/
+*/*/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+kotlin-js-store/
+
+# iOS
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+DerivedData/
+Pods/
+.symlinks/
