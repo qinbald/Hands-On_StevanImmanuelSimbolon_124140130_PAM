@@ -11,7 +11,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
-import androidx.compose.ui.text.font.FontWeightimport androidx.compose.foundation.layout.Row
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Card
