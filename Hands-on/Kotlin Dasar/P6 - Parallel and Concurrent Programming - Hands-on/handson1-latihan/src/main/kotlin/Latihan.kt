@@ -14,13 +14,13 @@ class Counter {
     private var c = 0
 
     fun increment() {
-        // TODO 1: Bungkus baris di bawah supaya thread-safe
-        c++
+        synchronized(this) {
+            c++
+        }
     }
 
     fun value(): Int {
-        // TODO 2: Jika kamu memakai AtomicInteger, sesuaikan cara membaca nilainya di sini
-        return c
+        return synchronized(this) { c }
     }
 }
 

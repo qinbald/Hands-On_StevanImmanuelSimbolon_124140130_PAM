@@ -11,6 +11,7 @@ fun calculate(a: Int, b: Int, operation: (Int, Int) -> Int): Int {
     return operation(a, b)
 }
 
+fun main() {
     val tambah = calculate(10, 4) { x, y -> x + y }
     println("Tambah: $tambah")
 
