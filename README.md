@@ -2,11 +2,13 @@
 
 ## Identitas
 
-- Nama : Stevan Immanuel Simbolon
-- NIM : 124140130
-- Kelas : RA
-- Mata Kuliah : Pengembangan Aplikasi Mobile
-- Kode Mata Kuliah : IF25-22017
+| Field            | Informasi                    |
+| ---------------- | ---------------------------- |
+| Nama             | Stevan Immanuel Simbolon     |
+| NIM              | 124140130                    |
+| Kelas            | RA                           |
+| Mata Kuliah      | Pengembangan Aplikasi Mobile |
+| Kode Mata Kuliah | IF25-22017                   |
 
 ## Penjelasan repository
 
@@ -58,5 +60,3 @@ IF25-22017-Pengembangan-Aplikasi-Mobile/
 - Folder `Pengembangan Aplikasi Mobile/` berisi proyek hands-on untuk materi utama matakuliah, biasanya dalam bentuk aplikasi Kotlin Multiplatform dengan modul `composeApp`.
 - Setiap proyek hands-on biasanya terbagi menjadi beberapa subfolder, seperti `latihan/`, `src/`, `README.md`, dan modul pendukung lainnya.
 - Folder solusi tidak ditampilkan secara terbuka pada repositori ini agar mahasiswa tetap mengerjakan tugas dari nol dan tidak langsung melihat hasil akhir.
-
-
