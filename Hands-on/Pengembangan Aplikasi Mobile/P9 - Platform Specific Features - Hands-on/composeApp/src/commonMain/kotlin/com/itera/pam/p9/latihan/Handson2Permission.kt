@@ -7,6 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.itera.pam.p9.hasCameraPermission
 
 // Hands-on 2: Permission Check (Platform-Aware)
 // `hasCameraPermission()` sudah diimplementasikan lewat expect/actual: cek
@@ -20,9 +21,12 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun Handson2Screen() {
+    val isGranted = hasCameraPermission()
+
     Column(modifier = Modifier.padding(16.dp)) {
         Text("Hands-on 2: Permission Check")
-        Text("Status izin kamera: ???") // TODO 2 & 3
+        val statusText = if (isGranted) "Izin kamera diberikan" else "Izin kamera ditolak"
+        Text("Status izin kamera: $statusText")
         Button(onClick = { /* simulasi tombol minta izin, di luar cakupan hands-on ini */ }) {
             Text("Simulasikan Minta Izin")
         }
