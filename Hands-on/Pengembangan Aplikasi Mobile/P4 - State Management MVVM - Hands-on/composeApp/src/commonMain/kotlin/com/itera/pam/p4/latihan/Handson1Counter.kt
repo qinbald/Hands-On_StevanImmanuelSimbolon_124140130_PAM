@@ -46,7 +46,7 @@ fun Handson1Screen() {
         Text("Count: $count")
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Button(onClick = { if (count > 0) count-- }) {
+            Button(onClick = { if (count > 0) count-- }, enabled = count > 0) {
                 Text("-")
             }
             Button(onClick = { count++ }) {
